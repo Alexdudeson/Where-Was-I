@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		084C407E2685F75600F9957E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 084C407D2685F75600F9957E /* MapKit.framework */; };
+		084C408026860E9000F9957E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084C407F26860E9000F9957E /* DataModel.swift */; };
+		084C408226860F5400F9957E /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084C408126860F5400F9957E /* DataStore.swift */; };
 		E5A489EE267B770C006F5387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A489ED267B770C006F5387 /* AppDelegate.swift */; };
 		E5A489F0267B770C006F5387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A489EF267B770C006F5387 /* ViewController.swift */; };
 		E5A489F3267B770C006F5387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A489F1267B770C006F5387 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		084C407D2685F75600F9957E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		084C407F26860E9000F9957E /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		084C408126860F5400F9957E /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		E5A489EA267B770C006F5387 /* Where Was I.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where Was I.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A489ED267B770C006F5387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5A489EF267B770C006F5387 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +35,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				084C407E2685F75600F9957E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		084C407C2685F75500F9957E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				084C407D2685F75600F9957E /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E5A489E1267B770C006F5387 = {
 			isa = PBXGroup;
 			children = (
 				E5A489EC267B770C006F5387 /* Where Was I */,
 				E5A489EB267B770C006F5387 /* Products */,
+				084C407C2685F75500F9957E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +76,8 @@
 				E5A489F4267B770F006F5387 /* Assets.xcassets */,
 				E5A489F6267B770F006F5387 /* LaunchScreen.storyboard */,
 				E5A489F9267B770F006F5387 /* Info.plist */,
+				084C407F26860E9000F9957E /* DataModel.swift */,
+				084C408126860F5400F9957E /* DataStore.swift */,
 			);
 			path = "Where Was I";
 			sourceTree = "<group>";
@@ -136,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5A489F0267B770C006F5387 /* ViewController.swift in Sources */,
+				084C408226860F5400F9957E /* DataStore.swift in Sources */,
 				E5A489EE267B770C006F5387 /* AppDelegate.swift in Sources */,
+				084C408026860E9000F9957E /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
